@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	
+>
+	<fieldset addfieldpath="/administrator/components/com_reference/models/fields">
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="Year"
+				type="integer"
+				label="COM_REFERENCE_SUMMERRATE_YEAR_LABEL"
+				description="COM_REFERENCE_SUMMERRATE_YEAR_DESC"
+				first="2010"
+				last="2030"
+				step="1"
+				default="2016"
+				/>
+		<field
+				name="MemberAdult"
+				type="text"
+				label="COM_REFERENCE_SUMMERRATE_MEMBERADULT_LABEL"
+				description="COM_REFERENCE_SUMMERRATE_MEMBERADULT_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		<field
+				name="MemberChild"
+				type="text"
+				label="COM_REFERENCE_SUMMERRATE_MEMBERCHILD_LABEL"
+				description="COM_REFERENCE_SUMMERRATE_MEMBERCHILD_DESC"
+				size="40"
+				class="inputbox required validate-numeric"
+				
+				default=""
+				/>
+		<field
+				name="GuestAdult"
+				type="text"
+				label="COM_REFERENCE_SUMMERRATE_GUESTADULT_LABEL"
+				description="COM_REFERENCE_SUMMERRATE_GUESTADULT_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		<field
+				name="GuestChild"
+				type="text"
+				label="COM_REFERENCE_SUMMERRATE_GUESTCHILD_LABEL"
+				description="COM_REFERENCE_SUMMERRATE_GUESTCHILD_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		
+		
+		<field 	name="lastModified" 
+				type="lastmodified"
+				label="" 
+				description="" 
+				/>
+		
+		
+	</fieldset>
+</form>

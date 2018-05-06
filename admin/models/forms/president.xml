@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_reference/models/fields">
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="Year"
+				type="integer"
+				label="COM_REFERENCE_WINTERRATE_YEAR_LABEL"
+				description="COM_REFERENCE_WINTERRATE_YEAR_DESC"
+				first="2007"
+				last="2030"
+				step="1"
+				
+				/>
+		<field name="MemberID" type="memberlist"
+			label="COM_REFERENCE_MEMBER_LABEL" description="COM_REFERENCE_MEMBER_DESC"
+			 />
+		
+		
+		<field 	name="lastModified" 
+				type="lastmodified"
+				label="" 
+				description="" 
+				readonly="true"
+				/>
+		
+		
+	</fieldset>
+</form>

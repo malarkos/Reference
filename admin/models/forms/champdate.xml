@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	
+>
+	<fieldset addfieldpath="/administrator/components/com_reference/models/fields">
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="Year"
+				type="integer"
+				label="COM_REFERENCE_WINTERRATE_YEAR_LABEL"
+				description="COM_REFERENCE_WINTERRATE_YEAR_DESC"
+				first="2007"
+				last="2030"
+				step="1"
+				default="2016"
+				required="true"
+				/>
+		<field
+				name="Friday"
+				type="calendar"
+				label="COM_REFERENCE_CHAMPDATE_FRIDAY_LABEL"
+				description="COM_REFERENCE_CHAMPDATE_FRIDAY_DESC"
+				
+				format="%Y-%m-%d %H:%M:%S"
+				size="22"
+				filter="user_utc"
+				required="true"
+		/>
+		
+		
+		<field 	name="lastModified" 
+				type="lastmodified"
+				label="" 
+				description="" 
+				readonly="true"
+				/>
+		
+		
+	</fieldset>
+</form>

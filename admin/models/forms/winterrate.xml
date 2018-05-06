@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="general" addfieldpath="/administrator/components/com_reference/models/fields">
+		<field name="id" type="hidden" />
+		<field name="Year" type="integer" label="COM_REFERENCE_WINTERRATE_YEAR_LABEL"
+			description="COM_REFERENCE_WINTERRATE_YEAR_DESC" first="2007" last="2030"
+			step="1" default="2018" />
+		<field name="start_peak" type="calendar"
+			label="COM_REFERENCE_WINTERRATE_STARTPEAK_LABEL" description="COM_REFERENCE_WINTERRATE_STARTPEAK_DESC"
+
+			format="%Y-%m-%d %H:%M:%S" size="22" filter="user_utc" />
+		<field name="stop_peak" type="calendar"
+			label="COM_REFERENCE_WINTERRATE_STOPPEAK_LABEL" description="COM_REFERENCE_WINTERRATE_STOPPEAK_DESC"
+
+			format="%Y-%m-%d %H:%M:%S" size="22" filter="user_utc" />
+	</fieldset>
+	<fieldset name="adult">
+		<field name="mep3" type="text" label="COM_REFERENCE_WINTERRATE_MEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEP3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gep3" type="text" label="COM_REFERENCE_WINTERRATE_GEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEP3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwp3" type="text" label="COM_REFERENCE_WINTERRATE_MWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWP3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gwp3" type="text" label="COM_REFERENCE_WINTERRATE_GWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWP3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="meo3" type="text" label="COM_REFERENCE_WINTERRATE_MEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEO3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="geo3" type="text" label="COM_REFERENCE_WINTERRATE_GEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEO3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwo3" type="text" label="COM_REFERENCE_WINTERRATE_MWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWO3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gwo3" type="text" label="COM_REFERENCE_WINTERRATE_GWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWO3_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+				
+	</fieldset>
+	<fieldset name="youngadult">
+			<field name="mep2" type="text" label="COM_REFERENCE_WINTERRATE_MEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEP2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gep2" type="text" label="COM_REFERENCE_WINTERRATE_GEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEP2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwp2" type="text" label="COM_REFERENCE_WINTERRATE_MWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWP2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gwp2" type="text" label="COM_REFERENCE_WINTERRATE_GWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWP2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="meo2" type="text" label="COM_REFERENCE_WINTERRATE_MEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEO2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="geo2" type="text" label="COM_REFERENCE_WINTERRATE_GEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEO2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwo2" type="text" label="COM_REFERENCE_WINTERRATE_MWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWO2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gwo2" type="text" label="COM_REFERENCE_WINTERRATE_GWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWO2_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			
+	</fieldset>
+	<fieldset name="child">
+			<field name="mep1" type="text" label="COM_REFERENCE_WINTERRATE_MEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEP1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gep1" type="text" label="COM_REFERENCE_WINTERRATE_GEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEP1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwp1" type="text" label="COM_REFERENCE_WINTERRATE_MWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWP1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gwp1" type="text" label="COM_REFERENCE_WINTERRATE_GWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWP1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="meo1" type="text" label="COM_REFERENCE_WINTERRATE_MEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEO1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="geo1" type="text" label="COM_REFERENCE_WINTERRATE_GEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEO1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwo1" type="text" label="COM_REFERENCE_WINTERRATE_MWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWO1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gwo1" type="text" label="COM_REFERENCE_WINTERRATE_GWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWO1_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+	</fieldset>
+	<fieldset name="infant">
+			<field name="mep0" type="text" label="COM_REFERENCE_WINTERRATE_MEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEP0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gep0" type="text" label="COM_REFERENCE_WINTERRATE_GEP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEP0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwp0" type="text" label="COM_REFERENCE_WINTERRATE_MWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWP0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="gwp0" type="text" label="COM_REFERENCE_WINTERRATE_GWP3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWP0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="meo0" type="text" label="COM_REFERENCE_WINTERRATE_MEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MEO0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="geo0" type="text" label="COM_REFERENCE_WINTERRATE_GEO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GEO0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+			<field name="mwo0" type="text" label="COM_REFERENCE_WINTERRATE_MWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_MWO0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />		
+			<field name="gwo0" type="text" label="COM_REFERENCE_WINTERRATE_GWO3_LABEL"
+			description="COM_REFERENCE_WINTERRATE_GWO0_DESC" size="5"
+			class="inputbox required validate-numeric" default="" />
+		
+	</fieldset>
+	<fieldset name="modified" addfieldpath="/administrator/components/com_reference/models/fields">				
+		<field name="lastModified" type="lastmodified" label=""
+			description="" readonly="true" />
+
+
+	</fieldset>
+</form>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	addrulepath="/administrator/components/com_reference/models/rules"
+>
+	<fieldset addfieldpath="/administrator/components/com_reference/models/fields">
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="Year"
+				type="integer"
+				label="COM_REFERENCE_MEMBERRATE_YEAR_LABEL"
+				description="COM_REFERENCE_MEMBERRATE_YEAR_DESC"
+				first="2010"
+				last="2030"
+				step="1"
+				default=""
+				/>
+		<field
+				name="Graduate"
+				type="text"
+				label="COM_REFERENCE_MEMBERRATE_GRADUATE_LABEL"
+				description="COM_REFERENCE_MEMBERRATE_GRADUATE_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		<field
+				name="Spouse"
+				type="text"
+				label="COM_REFERENCE_MEMBERRATE_SPOUSE_LABEL"
+				description="COM_REFERENCE_MEMBERRATE_SPOUSE_DESC"
+				size="40"
+				class="inputbox required validate-numeric"
+				
+				default=""
+				/>
+		<field
+				name="Student"
+				type="text"
+				label="COM_REFERENCE_MEMBERRATE_STUDENT_LABEL"
+				description="COM_REFERENCE_MEMBERRATE_STUDENT_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		<field
+				name="Child"
+				type="text"
+				label="COM_REFERENCE_MEMBERRATE_CHILD_LABEL"
+				description="COM_REFERENCE_MEMBERRATE_CHILD_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		<field
+				name="Summer"
+				type="text"
+				label="COM_REFERENCE_MEMBERRATE_SUMMER_LABEL"
+				description="COM_REFERENCE_MEMBERRATE_SUMMER_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		<field
+				name="Locker"
+				type="text"
+				label="COM_REFERENCE_MEMBERRATE_LOCKER_LABEL"
+				description="COM_REFERENCE_MEMBERRATE_LOCKER_DESC"
+				size="40"
+				class="inputbox required validate-numeric"		
+				default=""
+				/>
+		<field 	name="lastModified" 
+				type="lastmodified"
+				label="" 
+				description="" 
+				/>
+		
+		
+	</fieldset>
+</form>
